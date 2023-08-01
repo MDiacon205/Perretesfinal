@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MDiacon205.github.io/static/css/main.f49ebeba.css",
+    "main.js": "/MDiacon205.github.io/static/js/main.793a72a0.js",
+    "static/js/787.e0d16afe.chunk.js": "/MDiacon205.github.io/static/js/787.e0d16afe.chunk.js",
+    "index.html": "/MDiacon205.github.io/index.html",
+    "main.f49ebeba.css.map": "/MDiacon205.github.io/static/css/main.f49ebeba.css.map",
+    "main.793a72a0.js.map": "/MDiacon205.github.io/static/js/main.793a72a0.js.map",
+    "787.e0d16afe.chunk.js.map": "/MDiacon205.github.io/static/js/787.e0d16afe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f49ebeba.css",
+    "static/js/main.793a72a0.js"
+  ]
+}
