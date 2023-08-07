@@ -8,6 +8,7 @@ function Card() {
   <div class="card-body">
     <h5 class="card-title">Casa para perros</h5>
     <p class="card-text">Testeo de desc.</p>
+    <a href="https://www.youtube.com/watch?v=Zib-9ShLBn0" target='blank' class="stretched-link"></a>
   </div>
 </div>
     </div>

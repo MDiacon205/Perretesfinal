@@ -12,7 +12,26 @@ function Home() {
       <Bannercarousel />
       <p class="fs-3 mt-5 border-3 border-success border-bottom mb-2">OFERTAS</p>
 
-      <Itemcarousel />
+      <div class="row align-items-start">
+        <div class="col">
+          <Card />
+        </div>
+        <div class="col">
+          <Card />
+        </div>
+        <div class="col">
+          <Card />
+        </div>
+        <div class="col">
+          <Card />
+        </div>
+        <div class="col">
+          <Card />
+        </div>
+        <div class="col">
+          <Card />
+        </div>
+      </div>
       <Footer />
     </div>
   )
