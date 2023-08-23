@@ -11,10 +11,10 @@ function Footer() {
       </a>
   
       <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fa-brands fa-twitter"></i></a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fa-brands fa-instagram"></i></a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fa-solid fa-envelope"></i></a></li>
+        <li class="nav-item fs-3"><a href="https://www.youtube.com/watch?v=zsBIuaBO0Qo" target="_blank" class="nav-link px-2 text-muted"><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="nav-item fs-3"><a href="https://www.youtube.com/watch?v=zsBIuaBO0Qo" target="_blank" class="nav-link px-2 text-muted"><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="nav-item fs-3"><a href="https://www.youtube.com/watch?v=zsBIuaBO0Qo" target="_blank" class="nav-link px-2 text-muted"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li class="nav-item fs-3"><a href="https://www.youtube.com/watch?v=zsBIuaBO0Qo" target="_blank" class="nav-link px-2 text-muted"><i class="fa-solid fa-envelope"></i></a></li>
       </ul>
     </footer>
   </div></div>

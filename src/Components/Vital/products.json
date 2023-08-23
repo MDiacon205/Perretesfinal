@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "price": 3459,
+    "title": "NUTRIQUE MEDIUM YOUNG ADULT DOG 12 KG.",
+    "img": "./productimg/nutriqueadulto12kg.jpg",
+    "discount": 30,
+    "oldPrice": 4000
+  },
+  {
+    "id": 2,
+    "price": 2300,
+    "title": "NUTRIQUE BABY CAT & KITTEN 2 KG",
+    "img": "./productimg/nutriquebabycat2kg.jpg",
+    "discount": 15,
+    "oldPrice": 4000
+  },
+  {
+    "id": 3,
+    "price": 7325,
+    "title": "HOP! CACHORRO RAZA MEDIANA Y GRANDE 21 KG.",
+    "img": "./productimg/hopmid21kg.jpg",
+    "discount": 15,
+    "oldPrice": 4000
+  },
+  {
+    "id": 4,
+    "price": 699,
+    "title": "ASADITOS LOMITOS DE CARNE Y LECHE X 40 GRS",
+    "img": "./productimg/asaditosx40gr.jpg",
+    "discount": 10,
+    "oldPrice": 4000
+  },
+  {
+    "id": 5,
+    "price": 6899,
+    "title": "TRANSPORTADORA BRACCO N 6",
+    "img": "./productimg/transportadorabracco.jpg",
+    "discount": 15,
+    "oldPrice": 4000
+  },
+  {
+    "id": 6,
+    "price": 4378,
+    "title": "Oso Antidesgarro y Tpr Rascals",
+    "img": "./productimg/osorascals.jpg",
+    "discount": 10,
+    "oldPrice": 4000
+  },
+  {
+    "id": 7,
+    "price": 4378,
+    "title": "BALANCEADO CHINCHILLA/COBAYO NELSONI RANCH 750GR",
+    "img": "./productimg/chinchillabalanceado.jpg",
+    "discount": null,
+    "oldPrice": 4000
+  },
+  {
+    "id": 8,
+    "price": 4378,
+    "title": "TRANSPORTADORA PEQUEÑA TOP RUNNER MEDIUM",
+    "img": "./productimg/transportadora.jpg",
+    "discount": null,
+    "oldPrice": 4000
+  },
+  {
+    "id": 9,
+    "price": 4378,
+    "title": "JAULA PARA HAMSTER",
+    "img": "./productimg/jaulahamster.jpg",
+    "discount": null,
+    "oldPrice": 4000
+  },
+  {
+    "id": 10,
+    "price": 4378,
+    "title": "RATONCITOS CON PIEL X3 RASCALS",
+    "img": "./productimg/rascalsgato.jpg",
+    "discount": null,
+    "oldPrice": 4000
+  },
+  {
+    "id": 11,
+    "price": 4378,
+    "title": "Fuente Flower Acero 43725 Hagen",
+    "img": "./productimg/gatochistoso.jpg",
+    "discount": null,
+    "oldPrice": 4000
+  },
+  {
+    "id": 12,
+    "price": 4378,
+    "title": "JAULA",
+    "discount": null,
+    "img": "./productimg/jauladepajero.jpg"
+  }
+]
