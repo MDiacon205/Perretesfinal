@@ -24,9 +24,6 @@ function Navbar() {
                             <li class="nav-item">
                                 <a class="nav-link" href="/contact">Contacto</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
-                            </li>
                         </ul>
                         <ul>
                                <a href="https://mdiaconchuk.github.io/portfolio/" class="text-decoration-none text-dark fst-italic text-opacity-50 d-flex justify-content-center" href="/cart">Matias Diaconchuk</a>
