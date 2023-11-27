@@ -23,7 +23,7 @@ function Home() {
       <p class="fs-2 mt-3 mb-4">PRODUCTOS</p>
       <ProductContainer />
 
-      <p class="mt-4 pt-5 text-decoration-underline fw-bold fs-3">Ellos nos eligieron:</p>
+      <p class="mt-4 pt-5 text-decoration-underline fw-bold fs-3 text-opacity-50 text-dark">Ellos nos eligieron:</p>
 
       <div class="container shadow-sm">
         <div class="row align-items-start opacity-75 rounded-pill m-auto">
@@ -44,8 +44,6 @@ function Home() {
           </div>
         </div>  
       </div>
-      <p>Darkmode (HOME): {isDarkMode}</p>
-      <Footer />
 
     </div>
 

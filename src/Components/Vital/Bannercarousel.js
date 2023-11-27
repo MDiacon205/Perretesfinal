@@ -14,12 +14,6 @@ function Bannercarousel() {
     <div class="carousel-item">
       <img src="./specificimg/carousel3.jpg" class="d-block w-100 bannercarousel" alt="..."/>
     </div>
-    <div class="carousel-item">
-      <img src="./specificimg/chihuahuaimg.jpg" class="d-block w-100 bannercarousel" alt="..."/>
-    </div>
-    <div class="carousel-item">
-      <img src="./specificimg/carousel4.jpg" class="d-block w-100 bannercarousel" alt="..."/>
-    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

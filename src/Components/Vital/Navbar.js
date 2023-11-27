@@ -7,7 +7,7 @@ function Navbar() {
     
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/">
                         <img src="specificimg/navbar.png" height="36" />
@@ -27,14 +27,10 @@ function Navbar() {
                             <li class="nav-item">
                                 <a class="nav-link" href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
                             </li>
-                            <button class="bg-transparent border-0 rounded" onClick={ChangeTheme}><i class="fa-solid fa-moon"></i></button>
                         </ul>
-
-                        <form class="d-flex mx-auto w-50">
-                            <input class="form-control me-2" type="search" placeholder="Busca algo..." aria-label="Search" />
-                            <button class="btn btn-outline-success w-25" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>                           
-                        </form>
-
+                        <ul>
+                               <a href="https://mdiaconchuk.github.io/portfolio/" class="text-decoration-none text-dark fst-italic text-opacity-50 d-flex justify-content-center" href="/cart">Matias Diaconchuk</a>
+                            </ul>
                     </div>
                 </div>
             </nav>

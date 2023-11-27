@@ -2,7 +2,7 @@
   {
     "id": 1,
     "price": 3459,
-    "title": "NUTRIQUE MEDIUM YOUNG ADULT DOG 12 KG.",
+    "title": "NUTRIQUE MEDIO ADULTO 12 KG.",
     "img": "./productimg/nutriqueadulto12kg.jpg",
     "discount": 30,
     "oldPrice": 4000
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "price": 7325,
-    "title": "HOP! CACHORRO RAZA MEDIANA Y GRANDE 21 KG.",
+    "title": "HOP! CACHORRO MEDIANO Y GRANDE 21KG.",
     "img": "./productimg/hopmid21kg.jpg",
     "discount": 15,
     "oldPrice": 4000
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "price": 4378,
-    "title": "BALANCEADO CHINCHILLA/COBAYO NELSONI RANCH 750GR",
+    "title": "BALANCEADO CHINCHILLA RANCH 750GR",
     "img": "./productimg/chinchillabalanceado.jpg",
     "discount": null,
     "oldPrice": 4000
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "price": 4378,
-    "title": "TRANSPORTADORA PEQUEÑA TOP RUNNER MEDIUM",
+    "title": "TRANSPORTADORA PEQUEÑA TOP RUNNER",
     "img": "./productimg/transportadora.jpg",
     "discount": null,
     "oldPrice": 4000
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "price": 4378,
-    "title": "JAULA PARA HAMSTER",
+    "title": "JAULA PARA HAMSTER PEQUEÑA",
     "img": "./productimg/jaulahamster.jpg",
     "discount": null,
     "oldPrice": 4000
@@ -86,12 +86,5 @@
     "img": "./productimg/gatochistoso.jpg",
     "discount": null,
     "oldPrice": 4000
-  },
-  {
-    "id": 12,
-    "price": 4378,
-    "title": "JAULA",
-    "discount": null,
-    "img": "./productimg/jauladepajero.jpg"
   }
 ]

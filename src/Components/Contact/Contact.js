@@ -12,7 +12,6 @@ function Contact() {
       <p class="fs-1 bg-centrado">Contáctanos.</p>
       </div>
       <Form/>
-      <Footer/>
     </div>
   )
 }
