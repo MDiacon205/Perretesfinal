@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from './Card'
-import data from './products.json'
+import Card from '../Vital/Card'
+import data from '../Vital/products.json'
 
 function ProductContainer() {
   return (
@@ -9,9 +9,9 @@ function ProductContainer() {
           {data.filter(product => product.discount <= 0).map(filteredProduct =>
             <div className="col-lg-2 my-3">
             <Card
-              key={filteredProduct.id}
+              prodId={filteredProduct.id}
               title={filteredProduct.title}
-              price={filteredProduct.oldPrice - filteredProduct.oldPrice*filteredProduct.discount / 100}
+              price={filteredProduct.price}
               img={filteredProduct.img}
               className="col"
             />

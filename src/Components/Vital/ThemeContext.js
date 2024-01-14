@@ -1,8 +1,15 @@
-import { Children, createContext } from "react"
-import React from 'react'
-import { useState } from "react"
-import { useContext } from "react"
+import { createContext } from "react";
+import { useState } from "react";
 
-let ThemeContext = React.createContext('false');
+export const ThemeContext = createContext();
+export function ThemeContextProvider(props) {
 
-export default ThemeContext
+    let [DarkMode, setDarkMode] = useState(false)
+    const value = { DarkMode, setDarkMode };
+
+    return (
+        <ThemeContext.Provider value={value}>
+            {props.children}
+        </ThemeContext.Provider>
+    )
+}

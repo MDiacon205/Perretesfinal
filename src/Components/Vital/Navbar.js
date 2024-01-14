@@ -1,16 +1,22 @@
 import React, { useContext } from 'react'
-import ThemeContext from './ThemeContext'
+import { ThemeContext } from './ThemeContext'
 import { useState } from 'react'
 
 function Navbar() {
-    let isDarkMode = useContext(ThemeContext)
+    let { DarkMode, setDarkMode } = useContext(ThemeContext)
+    let DarkColor = "#29282b"
+    let LightColor = "white"
+
+    function DarkModeFunction() {
+    if (DarkMode == true) { setDarkMode(false); document.body.style.backgroundColor = "white" }
+    else { setDarkMode(true); document.body.style.backgroundColor = DarkColor }
+    }
     
     return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div>            <nav className={ DarkMode == false ? "navbar navbar-expand-lg navbar-light bg-light p-2" : "navbar navbar-expand-lg navbar-dark bg-dark" }>
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/">
-                        <img src="specificimg/navbar.png" height="36" />
+                        <img src={ DarkMode == false ? "specificimg/navbar.png" : "specificimg/navbarlight.png"} height="36" />
                         Perretes
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,10 +30,15 @@ function Navbar() {
                             <li class="nav-item">
                                 <a class="nav-link" href="/contact">Contacto</a>
                             </li>
+                            <li class="nav-item">
+                                <button class="nav-link" onClick={DarkModeFunction}>
+                                    {DarkMode == false ? <i class="fa-solid fa-moon"></i> : <i class="fa-solid fa-lightbulb text-warning"></i>}
+                                    </button>
+                            </li>
                         </ul>
-                        <ul>
-                               <a href="https://mdiaconchuk.github.io/portfolio/" class="text-decoration-none text-dark fst-italic text-opacity-50 d-flex justify-content-center" href="/cart">Matias Diaconchuk</a>
-                            </ul>
+                        {/* <ul>
+                               <a href="https://mdiaconchuk.github.io/portfolio/" class={ DarkMode == false ? "text-decoration-none text-dark fst-italic text-opacity-50 d-flex justify-content-center" : "text-decoration-none text-light fst-italic text-opacity-50 d-flex justify-content-center"} href="/cart">Matias Diaconchuk</a>
+                            </ul> */}
                     </div>
                 </div>
             </nav>

@@ -1,7 +1,11 @@
 import React from 'react'
-import Card from './Card'
+import Card from '../Vital/Card'
 
-function Itemcarousel() {
+
+// SIN USO ACTUAL
+
+
+function Itemcarousel() { 
   return (
     <div>
         <div id="carouselExample" class="carousel slide">

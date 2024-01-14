@@ -20,8 +20,16 @@ p {
   font-family: Montserrat, sans-serif
 }
 
-.bg-contact {
-  filter: blur(2px);
+.bg-contact-dark {
+  background-image: url(/public/images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.bg-contact-light {
+  background-image: url(/public/images/bglight.png);
+  background-repeat: no-repeat;
+  background-size: cover
 }
 
 .bg-container {
@@ -30,12 +38,12 @@ p {
   color: white;
 }
 
-.bg-centrado {
+/* .bg-centrado {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .bannercarousel {
   height: 30vw;

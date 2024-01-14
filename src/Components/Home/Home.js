@@ -1,15 +1,15 @@
 import React, { useContext } from 'react'
 import Footer from '../Vital/Footer'
 import Navbar from '../Vital/Navbar'
-import Bannercarousel from '../Vital/Bannercarousel'
+import Bannercarousel from './Bannercarousel'
 import Card from '../Vital/Card'
 import data from '../Vital/products.json'
-import SalesContainer from '../Vital/SalesContainer'
-import ProductContainer from '../Vital/ProductContainer'
-import ThemeContext from '../Vital/ThemeContext'
+import SalesContainer from './SalesContainer'
+import ProductContainer from './ProductContainer'
+import { ThemeContext } from '../Vital/ThemeContext'
 
 function Home() {
-  const isDarkMode = useContext(ThemeContext)
+  let { DarkMode } = useContext(ThemeContext)
 
   return (
     <div>
@@ -45,6 +45,7 @@ function Home() {
         </div>  
       </div>
 
+      <Footer/>
     </div>
 
   )
